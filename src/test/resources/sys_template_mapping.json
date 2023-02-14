@@ -1,0 +1,80 @@
+{
+  "properties": {
+    "_class": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "height": {
+      "type": "long"
+    },
+    "industry": {
+      "type": "keyword"
+    },
+    "jsonUrl": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "name": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "order": {
+      "type": "long"
+    },
+    "previewUrl": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "publishTime": {
+      "type": "date",
+      "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+    },
+    "size": {
+      "type": "long"
+    },
+    "templateId": {
+      "type": "long"
+    },
+    "templateNo": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "theme": {
+      "type": "keyword"
+    },
+    "type": {
+      "type": "keyword"
+    },
+    "usableRange": {
+      "type": "keyword"
+    },
+    "width": {
+      "type": "long"
+    }
+  }
+}
